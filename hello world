@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <title>My cool page</title>
+        <link href="./style.css" rel="stylesheet">
+    </Head>
+    <body>
+        <h1>Hello World</h1>
+           <div>
+                    <p>Parker</p>
+                     <p>Green River College</p>
+                    <h2> My favorite foods</h2></div>
+            <ul>
+                <l1>burger</l1>
+                <l1>grilled cheese</l1>
+            </ul>
+            <h2>my morning routine</h2>
+            <ol>
+             <li>Wake up</li>   
+             <li>Doom scroll
+                <ul>
+                   <li>
+                        <!--doom scrolling in the morning is not good for you-->
+                    <a href="https://www.tiktok.com/en/">Tiktok</a></li>
+                   <li>Insta</li>
+                   <li>YouTube</li>
+                </ul>
+            </li>
+             <l1>play videogames</l1>
+             <l1>Eat breakfast</l1>   
+            </ol>
+    </body>
+</html
