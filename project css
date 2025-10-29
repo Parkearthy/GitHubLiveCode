@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0fdf4; /* light green */
+    color: #084c61;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #b2f5ea;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #22543d;
+}
+
+/* Form section */
+.form-section {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style labels and inputs */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #a0aec0;
+    border-radius: 5px;
+}
+
+/* Class selector */
+button {
+    background-color: #48bb78;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f855a;
+}
+
+/* ID selector */
+#info {
+    margin: 30px auto;
+    width: 80%;
+    background-color: #e6fffa;
+    border-left: 5px solid #319795;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #68d391;
+    color: white;
+    margin-top: 30px;
+}

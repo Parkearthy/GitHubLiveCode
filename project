@@ -1,0 +1,82 @@
+/green-earth-signup
+│
+├── index.html
+└── style.css
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Earth Volunteers Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        Form Plan:
+        firs - text input
+        last name - text input
+        age - number input
+        volunteer role preference - radio buttons
+        preferred project type - select dropdown
+        email - email input (new input type)
+        terms agreement - required checkbox
+    -->
+
+    <header>
+        <h1>🌎 Join Green Earth Volunteers</h1>
+        <p>Help us protect the planet by joining our team of volunteers!</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Iconic_image_of_earth.jpg/320px-Iconic_image_of_earth.jpg" 
+             alt="Earth from space" width="300">
+    </header>
+
+    <div class="form-section">
+        <form id="volunteerForm" action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="POST">
+            
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="10" max="100">
+
+            <p>Preferred Volunteer Shift:</p>
+            <label><input type="radio" name="shift" value="Day"> Day Shift</label>
+            <label><input type="radio" name="shift" value="Evening"> Evening Shift</label>
+
+            <label for="projectType">Project Interest:</label>
+            <select id="projectType" name="projectType">
+                <option value="treePlanting">Tree Planting</option>
+                <option value="recycling">Recycling Drives</option>
+                <option value="beachCleanup">Beach Cleanup</option>
+            </select>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+            <label>
+                <input type="checkbox" id="agree" name="agree" required>
+                I agree to receive updates about volunteer opportunities.
+            </label>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="info">
+        <h2>Why Join Us?</h2>
+        <ul>
+            <li>Make a real impact on local environments.</li>
+            <li>Meet like-minded people who care about the Earth.</li>
+            <li>Learn sustainable practices and community action skills.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Green Earth Volunteers</p>
+    </footer>
+</body>
+</html>
+
